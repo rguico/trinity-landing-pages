@@ -36,6 +36,18 @@ pre-footer {
     margin-top: 25px;
 }
 
+banner {
+    text-align: center;
+    background-color:rgb(255, 94, 94);
+    font-weight: bolder;
+    font-size: 14pt;
+    color: white;
+}
+
+address {
+    margin-bottom: 25px;
+}
+
 h2 strong {
     font-weight: bolder;
     color: rgb(255, 94, 94)

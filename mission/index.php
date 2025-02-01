@@ -10,7 +10,7 @@
 
 <!-- https://matthewjamestaylor.com/holy-grail-layout -->
 <div class="holy-grail-flexbox">
-    <header class="header"><img src="../img/trinity-logo.png" alt="Trinity Logo" height="125px"></header>
+    <?php require_once("../includes/header.php"); ?>
     <main class="main-content">
         <h1>Quality Christian Education</h1>
         <h2>is only <strong>9</strong> minutes away</h2>
@@ -23,6 +23,7 @@
 
     <pre-footer>
         <h2>How to Get Here</h2>
+        <?php require_once("../includes/address.php"); ?>
         <img 
             src="../img/mission-to-trinity.png" 
             alt="A map from Mission Church to Trinity Lutheran School in Roselle." 
