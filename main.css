@@ -7,6 +7,14 @@
     font-variation-settings: "width" 100;
 }
 
+body {
+    margin: 0;
+}
+
+form {
+    margin: 0 10px !important;
+}
+
 form h1 {
     font-family: "Noto Sans", serif;
     font-optical-sizing: auto;
@@ -14,8 +22,18 @@ form h1 {
     font-variation-settings: "width" 100;
 }
 
-h1 {
+h1, h2 {
     margin-top: 0;
+}
+
+img {
+    padding: 0;
+}
+
+pre-footer {
+    text-align: center;
+    background-color: #ffcd98;
+    margin-top: 25px;
 }
 
 h2 strong {
@@ -55,10 +73,6 @@ h2 strong {
 
 .main-content h1, .main-content h2 {
     margin-bottom: 0;
-}
-
-.holy-grail-flexbox > .left-sidebar {
-
 }
 
 .holy-grail-flexbox > .right-sidebar {
